@@ -8,12 +8,11 @@ color: #222;
 }
 
 .navbar {
-    background: #e54d26;
     padding: .8rem;
 }
 
 .navbar-brand {
-    color: #e54d26;
+    color:;
 }
 
 .navbar-nav li {
@@ -31,9 +30,7 @@ padding-right: 20px;
 }
 
 .carousel-caption {
-    position: absolute;
-    
-    
+    position: absolute;  
 }
 
 .carousel-caption h1 {
@@ -56,12 +53,14 @@ padding-right: 20px;
 
 .padding {
     padding-bottom: 2rem;
+
 }
 
 .welcome {
 width: 75%;
 margin: 0 auto;
 padding-top: 2rem;
+
 }
 
 .row {
@@ -154,22 +153,20 @@ padding-top: 2rem;
 }
 
 .social a {
-     background-color: #09B2F1;
-    color: #FFFFFF;
     font-size: 4.5em;
     padding: 3rem;
 }
 
 .fa-facebook {
-    color: #3b5998;
+    color: white;
 }
 
 .fa-instagram {
-    color: #517fa4;
+    color: white;
 }
 
 .fa-youtube {
-    color: #bb0000;
+    color: white;
 }
 
 .fa-facebook:hover,
@@ -178,11 +175,16 @@ padding-top: 2rem;
     color: #d5d5d5;
 }
 
+.social {
+    background-color: brown;
+    color: white;
+}
+
 
 footer {
-    background-color: #09B2F1;
-    color: #FFFFFF;
     padding-top: 2rem;
+     background-color: brown;
+     color: white;
 }
 
 hr.light {
