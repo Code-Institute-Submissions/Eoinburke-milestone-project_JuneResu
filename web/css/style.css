@@ -7,6 +7,16 @@ font-family: 'Poppins', sans-serif;
 color: #222;
 }
 
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Newsreader', serif;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Newsreader', serif;
+}
+
 .navbar {
     padding: .8rem;
 }
@@ -103,6 +113,7 @@ padding-top: 2rem;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+  margin-bottom: 2rem;
 }
 
 .column img {
@@ -128,6 +139,16 @@ padding-top: 2rem;
     max-width: 100%;
 }
 
+.video {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.card-text {
+display: inline-block;
+}
+
+
 .welcome hr {
     border-top: 2px solid #b4b4b4;
     width: 95%;
@@ -135,38 +156,22 @@ padding-top: 2rem;
     margin-bottom: 1rem;
 }
 
-.fa-code {
-    color: #e54d26;
-}
-
-.fa-bold {
-    color: #563d7c;
-}
-
-.fa-css3 {
-    color: #2163af;
-}
-
-.fa-code, .fa-bold, .fa-css3 {
-    font-size: 4em;
-    margin: 1rem;
-}
-
 .social a {
-    font-size: 4.5em;
-    padding: 3rem;
+    width: 100%;
+font-size: 4.5em;
+padding: 3rem;
 }
 
 .fa-facebook {
-    color: white;
+    color: #3b5998;
 }
 
 .fa-instagram {
-    color: white;
+    color: #517fa4;
 }
 
 .fa-youtube {
-    color: white;
+    color: #bb0000;
 }
 
 .fa-facebook:hover,
@@ -175,16 +180,12 @@ padding-top: 2rem;
     color: #d5d5d5;
 }
 
-.social {
-    background-color: brown;
-    color: white;
-}
-
-
 footer {
-    padding-top: 2rem;
-     background-color: brown;
-     color: white;
+     background-color: #3f3f3f;
+     color: #d5d5d5;
+     padding-top: 2rem;
+     margin-top: .8rem;
+     margin-bottom: 1rem;
 }
 
 hr.light {
