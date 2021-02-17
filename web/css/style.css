@@ -4,6 +4,7 @@
 height: 100%;
 width: 100%;
 font-family: 'Poppins', sans-serif;
+background-color: #000;
 color: #222;
 }
 
@@ -129,6 +130,7 @@ padding-top: 2rem;
     flex: 50%;
     max-width: 50%;
   }
+}
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -137,6 +139,7 @@ padding-top: 2rem;
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+}
 }
 
 .video {
@@ -162,17 +165,6 @@ font-size: 4.5em;
 padding: 3rem;
 }
 
-.fa-facebook {
-    color: #3b5998;
-}
-
-.fa-instagram {
-    color: #517fa4;
-}
-
-.fa-youtube {
-    color: #bb0000;
-}
 
 .fa-facebook:hover,
 .fa-instagram:hover,
@@ -191,4 +183,16 @@ footer {
 hr.light {
     border-top: 1px solid #d5d5d5;
     width: 75%;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #bb0000;
 }

@@ -8,55 +8,45 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     <link href="web/css/style.css" rel="stylesheet">
     <title>Eoin Burke Photography</title>
 </head>
 <body>
 
     <!-----NavBar------>
-
-   <nav class="navbar navbar-expand-lg navbar navbar-light bg-light">
+<nav class="navbar navbar-expand fixed-top navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <i class="fab fa-camera">Eoin Burke Photography</i></a>
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  
+    <a class="navbar-brand" href="#">Eoin Burke Photography</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item-active">
-              <form class="d-flex">
-       
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarResponsive">
-        <span class="navbar-toggler"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-        </div>
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">CONTENT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">EQUIPMENT</a>
+          <a class="nav-link" href="#">ABOUT</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">CONTACT</a>
         </li>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      
       </ul>
-      
-      </form>
+      <span class="navbar-text">
+        Re-Live Every Moment!
+      </span>
     </div>
   </div>
 </nav>
+
 
 <!-------image slider-------->
 
@@ -136,48 +126,66 @@
 
 <div class="row">
   <div class="column">
-    <img src="web/images/stars.jpg" style="width:100%">
-    <img src="web/images/menlo.jpg" style="width:100%">
-    <img src="web/images/mountain.jpg" style="width:100%">
-    <img src="web/images/la.jpg" style="width:100%">
-    <img src="web/images/sand.jpg"style="width:100%">
-      <img src="web/images/wing.jpg" style="width:100%">
-    <img src="web/images/valley.jpg"style="width:100%">
-    <img src="web/images/sunset.jpg" style="width:100%">
+   <a data-fancybox="gallery" href="cliff.jpg"><img src="web/images/cliff.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="building.jpg"><img src="web/images/building.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="dear.jpg"><img src="web/images/dear.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="donegal.jpg"><img src="web/images/donegal.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="camp.jpg"><img src="web/images/camp.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="death.jpg"><img src="web/images/death.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="deathvalley.jpg"><img src="web/images/deathvalley.jpg" style="width:100%"></a>
+
   </div>
   <div class="column">
-  <img src="web/images/bridge.jpg" style="width:100%">
-    <img src="web/images/building.jpg" style="width:100%">
-    <img src="web/images/camp.jpg" style="width:100%">
-    <img src="web/images/city.jpg" style="width:100%">
-     <img src="web/images/mushroom.jpg" style="width:100%">
-    <img src="web/images/van.jpg" style="width:100%">
-    <img src="web/images/sand.jpg" style="width:100%">
+<a data-fancybox="gallery" href="galaxy.jpg"><img src="web/images/galaxy.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="morning.jpg"><img src="web/images/morning.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="ice.jpg"><img src="web/images/ice.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="joffree.jpg"><img src="web/images/joffree.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="la.jpg"><img src="web/images/la.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="lonely.jpg"><img src="web/images/lonely.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="lynn.jpg"><img src="web/images/lynn.jpg" style="width:100%"></a>
+
   </div>
   <div class="column">
-   <img src="web/images/cliff.jpg"style="width:100%">
-    <img src="web/images/death.jpg" style="width:100%">
-    <img src="web/images/deathvalley.jpg" style="width:100%">
-    <img src="web/images/deer.jpg" style="width:100%">
-    <img src="web/images/donegal.jpg"style="width:100%">
-    <img src="web/images/sun.jpg" style="width:100%">
-        <img src="web/images/sset.jpg" style="width:100%">
-         <img src="web/images/joffree.jpg" style="width:100%">
+<a data-fancybox="gallery" href="mushroom.jpg"><img src="web/images/mushroom.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="sand.jpg"><img src="web/images/sand.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="bridge.jpg"><img src="web/images/bridge.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="sf.jpg"><img src="web/images/sf.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="sset.jpg"><img src="web/images/sset.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="yosemite.jpg"><img src="web/images/yosemite.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="fall.jpg"><img src="web/images/fall.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="fworks.jpg"><img src="web/images/fworks.jpg" style="width:100%"></a>
+
   </div>
   <div class="column">
-    <img src="web/images/fall.jpg" style="width:100%">
-    <img src="web/images/fworks.jpg" style="width:100%">
-    <img src="web/images/galaxy.jpg" style="width:100%">
-    <img src="web/images/lonely.jpg" style="width:100%">
-    <img src="web/images/lynn.jpg"style="width:100%">
-      <img src="web/images/sf.jpg" style="width:100%">
-    <img src="web/images/yosemite.jpg"style="width:100%">
+<a data-fancybox="gallery" href="stars.jpg"><img src="web/images/stars.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="sun.jpg"><img src="web/images/sun.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="cliff.jpg"><img src="web/images/cliff.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="sunset.jpg"><img src="web/images/sunset.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="valley.jpg"><img src="web/images/valley.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="van.jpg"><img src="web/images/wing.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="menlo.jpg"><img src="web/images/menlo.jpg" style="width:100%"></a>
+<a data-fancybox="gallery" href="mountain.jpg"><img src="web/images/mountain.jpg" style="width:100%"></a>
   </div>
 </div>
 
 <hr>
 <br>
 <!------Two Column------>
+<div class="container-fluid padding">
+    <div class="video">
+    <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+             <div class="row welcome text-center">
+        <h1 class="display-4"><strong>More Information</strong></h1>
+        <hr>
+             </div>
+            <h2>Why dont you watch a video I shot and edited!</h2>
+            <p>I also take videos as well as photos. I take great pride in being able to shoot great content! I alwasy find the harrdest part of editing videos is trying to pick the right song...
+              <br>
+              I always use the most up to date software to make sure im getting the most out of my content. Why don't you head on over to my instagram (link in the bottom just click the instagram logo!) to check out some more awesome videos I recorded and edited! Dont forget to like and share with your friends!
+            </p>
+<
+        </div>
 
 <div class="container-fluid padding">
     <div class="video">
@@ -313,8 +321,8 @@ Your browser does not support the video tag.
     <div class="row text-center">
         <div class="col-md-12">
             <hr class="light">
-            <p><Strong>Phone:</Strong> +</p>
-            <p><strong>Email:</strong> </p>
+            <p><Strong>Phone: +353 87 607 6596</Strong> </p>
+            <p><strong>Email: burkeyeoin45@gmail.com</strong> </p>
         </div>
         <div class="col-12">
             <hr class="light">
