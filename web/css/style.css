@@ -1,21 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald&display=swap');
 
 .html body {
 height: 100%;
 width: 100%;
-font-family: 'Poppins', sans-serif;
 background-color: #000;
 color: #222;
 }
 
-h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Newsreader', serif;
+h1, h2 {    
+font-family: 'Oswald', sans-serif;
 }
 
-h2 {
-    font-family: 'Bebas Neue', cursive;
-font-family: 'Newsreader', serif;
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
 }
 
 .navbar {
@@ -140,6 +138,10 @@ padding-top: 2rem;
     flex: 100%;
     max-width: 100%;
 }
+}
+
+img {
+    position: absolute;
 }
 
 .video {
