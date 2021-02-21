@@ -14,6 +14,7 @@ font-family: 'Oswald', sans-serif;
 p {
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
+    
 }
 
 .navbar {
@@ -139,11 +140,10 @@ padding-top: 2rem;
     max-width: 100%;
 }
 }
-
-img {
-    position: absolute;
+img p {
+    padding-left: 10em;
+    padding-right: 10em;
 }
-
 .video {
     margin-top: 200px;
     margin-bottom: 50px;
