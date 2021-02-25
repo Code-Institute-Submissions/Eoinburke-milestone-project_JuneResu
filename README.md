@@ -16,8 +16,14 @@ I picked this particular website because I have a great intrest in content creat
 
 # <strong>Wireframe Mockups</strong>
 My mockup wireframs can be found by clicking on the link:
-[Github Wireframes](https://github.com/Eoinburke/milestone-project/blob/main/New%20Project%201.pdf)
+[Github Wireframes](https://github.com/Eoinburke/milestone-project/blob/main/new-project-1.pdf)
 
 # <strong>Website Features</strong>
-## Home 
+## [Home](https://eoinburke.github.io/milestone-project/index.html) 
+* Narbar - When developing the website I added a sticky navigation bar, I did this to make the website user friendly and easy to navigate through. 
+* Image slider - I designed my website with an image slider to grab the users attention, hoping they will want so see more content.
+* Modal -  I added modal to my log in/sign up button to make the website that bit more interactive.
+
+## Content
+* Fancy box - When I was incorporating images into my webpage I wanted the user to be able to browse through the content freely. Fancy box was the best tool I could use it allows users to play through the images and have easy access to scroll through them.
 
