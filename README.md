@@ -51,12 +51,29 @@ My mockup wireframs can be found by clicking on the link:
 
 # Project Issues 
 * I ran into a few problems when creating the website. I had a problem with the nav bar when loading on a mobile device, the nav bar would take up most of the room over the home page image which looked very unprofessional.
-
 * I have three image slides for my home page but I have couldnt figure out how to get the third one to work unfortunatley so in the end i had to remove it from the final touches to the project.
-
 * I also ran into problems with my images. They were taking too long to process which slowed down the the websites time to load. To overcome this I had to use [Gimp](https://www.gimp.org/) to help re-size and lower the images resolution quality.
+* While using Fancy box I found it difficult to get it working properly but with further research into the website and youtube I was able to get it working in the end.
 
-* 
+# Credit
+* I got the main home screen idead and Font awesome icons from watching Drew Ryans Boot strap website on [Youtube](https://www.youtube.com/watch?v=9cKsq14Kfsw&t=1047s) I also used the CSS he used to style thr home page.
+* From researching for a while what was the best way to layout the image gallery I used Fancy box and CSS code which I got from [w3Shool](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid).
+* I was able to get the modal code from [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/).
+* On the image slider the second photo of thr bear was taken by Melissa Whellas I got form [Facebook](https://m.facebook.com/photographizemag/photos/a.411511801010/10158406321006011/?type=3&source=48).
+* Majority of photos and images used in the project were shot and taken by me Eoin Burke.
+* For the video I was able to get the code to help me out from [w3schools](https://www.w3schools.com/html/html5_video.asp).
+* The image I used fot the Sony a6400 I got from [Google images](https://www.google.com/url?sa=i&url=https%3A%2F%2Fjosipovic.rs%2Fproizvod%2Feasycover-zastitna-maska-za-sony-a6000-a6300-a6400-crna%2F&psig=AOvVaw1Hr_rpScakx33MFd8u4yf5&ust=1614552941112000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICJ08aUi-8CFQAAAAAdAAAAABAP)
+* I had to get the DJI Mavic Mini photo from [WikiMedia](https://commons.wikimedia.org/wiki/File:DJI_Mavic_Mini_displayed_-_1.jpg).
+* For the GoPro image i had to get the photo from [HaveCamera](https://havecamerawilltravel.com/gopro/gopro-hero9-black-batteries/)
+* All social media icons were got using [Font-Awesome](https://fontawesome.com/https://fontawesome.com/).
+* I got the idea for adding the google maps from watching [Geek-Tutorials](https://www.youtube.com/watch?v=KIC0OK9nKXY) on YouTube
+
+# Acknowledgement
+* [Code-Institute](https://codeinstitute.net/all-access-coding-challenge/?utm_term=code%20institute%20dublin&utm_campaign=a%26c_BR_IRL_Code_Institute&utm_source=adwords&utm_medium=ppc&hsa_net=adwords&hsa_tgt=kwd-360431879738&hsa_ad=486298911336&hsa_acc=8983321581&hsa_grp=56427889338&hsa_mt=e&hsa_cam=1378516521&hsa_kw=code%20institute%20dublin&hsa_ver=3&hsa_src=g&gclid=EAIaIQobChMI-_Smu52L7wIVjrrtCh0aNwKbEAAYAyAAEgK5d_D_BwE&gclsrc=aw.ds).
+* My mentor Guido Cecilio for taking time out of his day to respond to me and for helping me through out our mentor meetings.
+* [Bootstrap](https://getbootstrap.com/) for being a great resorce and help for my project.
+* [w3schools](https://www.w3schools.com/) was a fantastic resource overall for helpin me with various parts of my project.
+
 
 
 
