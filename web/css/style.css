@@ -9,6 +9,7 @@ color: #222;
 
 h1, h2 {    
 font-family: 'Oswald', sans-serif;
+text-align: center;
 }
 
 p {
@@ -92,13 +93,19 @@ padding-top: 2rem;
   box-sizing: border-box;
 }
 
-img p {
-    padding-left: 10em;
-    padding-right: 10em;
+.about {
+   border: 100px;
+  padding: 10px;
+  margin: 10px;
 }
 .video {
-    margin-top: 200px;
-    margin-bottom: 50px;
+ 
+  margin-bottom: 50px;
+  border: 100px;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  margin: auto;
 }
 
 .card-text {
