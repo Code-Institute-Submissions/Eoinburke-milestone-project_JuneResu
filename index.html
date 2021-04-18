@@ -21,33 +21,39 @@
     <!--NavBar-->
     
    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#Eoin-Burke">HOME</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#images">CONTENT</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#aboutMe">ABOUT ME</a>
-    </li>  
-     <li class="nav-item">
-      <a class="nav-link" href="#Equipment">EQUIPMENT</a>
-    </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#Contact">CONTACT</a>
-    </li>
-  </ul>
-</nav>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
 
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2"><a class="nav-link" href="#Eoin-Burke">HOME</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#images">CONTENT</a></li>
+                   <li class="nav-item mr-2"><a class="nav-link" href="#aboutMe">ABOUT ME</a></li>
+                      <li class="nav-item mr-2"><a class="nav-link" href="#Equipment">EQUIPMENT</a></li>
+                         <li class="nav-item mr-2"><a class="nav-link" href="#Contact">CONTACT</a></li>
+         
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#Eoin-Burke">HOME</a>
+                        <a class="dropdown-item" href="#images">CONTENT</a>
+                        <a class="dropdown-item" href="#aboutMe">ABOUT ME</a>
+                        <a class="dropdown-item" href="#Equipment">EQUIPMENT</a>
+                         <a class="dropdown-item" href="#Contact">CONTACT</a>
+                    </div>
+                </li>
 
+            </ul>
+        </div>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Eoin Burke Photography</i></p>
+        </div>
+   </nav>
 
     <!--image-->
 
     <div id="Eoin-Burke">
         <div class="container">
             <div class="heading">
-  <img src="web/images/menlo.jpg" alt="Deer" width="100%" height="100%">
+  <img src="web/images/menlo.jpg" alt="Deer" height="100%" width="100%">
 </div>
 </div>
     </div>
@@ -211,11 +217,12 @@
                             <div class="video">
                             <div class="col sqs-col-6">
                                 <center>
-                                <video width="500" height="350" controls>
+                                <video width="500" height="350" controls style="center">
                                     <source src="web/video/movie2.mp4" type="video/mp4">
                                     <source src="movie.ogg" type="video/ogg">
                                 </video>
                                 </center>
+                                
                             </div>
                         </div>
                     </div>
