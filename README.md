@@ -1,5 +1,5 @@
 # Eoin Burke Photography 
-<img src="web/images/project.jpg">
+<img src="web/images/project2.jpg">
 <light> The main goal behind this was to create a front end responcive website that is user friendly. I designed the website the way I did so everything the user needs to see or use is right in front of them and is easy access.
 I picked this particular website because I have a great intrest in content creation and design. I wanted to showcase some of my photos and videos I have shot and edited over the last few years i have been travelling. </light>
 
@@ -73,7 +73,7 @@ My mockup wireframs can be found by clicking on the link:
 * My mentor Guido Cecilio for taking time out of his day to respond to me and for helping me through out our mentor meetings.
 * [Bootstrap](https://getbootstrap.com/) for being a great resorce and help for my project.
 * [w3schools](https://www.w3schools.com/) was a fantastic resource overall for helpin me with various parts of my project.
-
+* [W3C Markup Validation Service](https://validator.w3.org/) was very useful to test my HTML and CSS files to make sure there was no errors with my code.
 
 
 
