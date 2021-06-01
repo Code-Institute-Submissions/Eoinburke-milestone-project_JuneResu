@@ -20,50 +20,50 @@
 
     <!--NavBar-->
     
-   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="#Eoin-Burke">HOME</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="#images">CONTENT</a></li>
-                   <li class="nav-item mr-2"><a class="nav-link" href="#aboutMe">ABOUT ME</a></li>
-                      <li class="nav-item mr-2"><a class="nav-link" href="#Equipment">EQUIPMENT</a></li>
-                         <li class="nav-item mr-2"><a class="nav-link" href="#Contact">CONTACT</a></li>
-                                     </ul>
-      
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#Eoin-Burke">HOME</a>
-                        <a class="dropdown-item" href="#images">CONTENT</a>
-                        <a class="dropdown-item" href="#aboutMe">ABOUT ME</a>
-                        <a class="dropdown-item" href="#Equipment">EQUIPMENT</a>
-                         <a class="dropdown-item" href="#Contact">CONTACT</a>
-                    </div>
-              
-
-            
-        </div>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Eoin Burke Photography</i></p>
-        </div>
-   </nav>
-
+     <header>
+            <nav id="myNavbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse text-right" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Eoin-Burke">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#images">CONTENT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">ABOUT ME</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#Equipment">EQUIPMENT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     <!--image-->
-
+    <div class="row">
+<div class="col-lg-12 col-md-4 col-sm-">
     <div id="Eoin-Burke">
   <img  class="fit" src="web/images/menlo.jpg" alt="Deer" height="100%" width="100%">
+    </div>
+</div>
 </div>
         <!--Welcome Section-->
 
         <div id="Re-Live-Every-Moment">
             <div class="container-fluid padding">
                 <div class="row welcome text-center">
-                    <div class="col-12">
+                    <div class="col-lg-12 col-sm-6">
                         <h1 class="display-4">Re-Live Every Moment</h1>
                         <hr>
                     </div>
-                    <div class="col-12">
+                    <div class="col-lg-12 col-sm-6">
                         <p class="lead">Here to take great quality content for any event.</p>
                     </div>
                 </div>
@@ -73,8 +73,9 @@
         <!--Image Grid-->
 
 <div id="images">
+    <div class="container">
         <div class="row">
-            <div class="column">
+           <div class="col-md-4">
                 <a data-fancybox="gallery" href="web/images/cliff.jpg"><img src="web/images/cliff.jpg"
                       alt="Sitting on the cliff edge"  style="width:100%"></a>
                 <a data-fancybox="gallery" href="web/images/building.jpg"><img src="web/images/building.jpg"
@@ -91,9 +92,11 @@
                        alt="Death Valley Nevada" style="width:100%"></a>
                 <a data-fancybox="gallery" href="web/images/fall.jpg"><img src="web/images/fall.jpg"
                        alt="Waterfall in Yosemite" style="width:100%"></a>
-
+                       </div>
+</div>
             </div>
-            <div class="column">
+            <div class="row">
+                <div class="col-md-8">
                 <a data-fancybox="gallery" href="web/images/galaxy.jpg"><img src="web/images/galaxy.jpg"
                        alt="Night sky Yosemite" style="width:100%"></a>
                 <a data-fancybox="gallery" href="web/images/morning.jpg"><img src="web/images/morning.jpg"
@@ -110,9 +113,10 @@
                 <a data-fancybox="gallery" href="web/images/sand2.jpg"><img src="web/images/sand2.jpg"
                        alt="Sand Storm in Death Valley" style="width:100%"></a>
                 <a data-fancybox="gallery" href="web/images/me.jpg"><img src="web/images/me.jpg" alt="Griffith Observatory" style="width:100%"></a>
-
+                </div>
             </div>
-            <div class="column">
+            <div class="row">
+                <div class="col">
                 <a data-fancybox="gallery" href="web/images/mushroom.jpg"><img src="web/images/mushroom.jpg"
                        alt="Sprouting mushroom" style="width:100%"></a>
                 <a data-fancybox="gallery" href="web/images/sand.jpg"><img src="web/images/sand.jpg"
@@ -129,7 +133,7 @@
                 <a data-fancybox="gallery" href="web/images/griffith.jpg"><img src="web/images/griffith.jpg"
                       alt="Sunrise Griffith Observatory and Los Angeles" style="width:100%"></a>
 
-
+                </div>
 
             </div>
             <div class="column">
@@ -160,10 +164,6 @@
         <br>
         <!--Two Column-->
 
-
-
-        
-        
             <div class="about">
             <div class="container-fluid padding">
                <div class="row padding">
@@ -305,8 +305,9 @@
                 <!--connect-->
 
                 <div class="container-fluid padding">
+                    <div class="row">
                     <div class="row text-center padding">
-                        <div class="col-12">
+                        <div class="col-sm-4">
                             <h2>Social Media</h2>
                         </div>
                         <div class="col-12 social padding">
@@ -315,6 +316,8 @@
                                     class="fab fa-instagram"></i></a>
                             <a href="https://www.youtube.com/channel/UCM3h-z9iOdh-cONTUZsZf0A" target="_blank"><i
                                     class="fab fa-youtube"></i></a>
+            
+                        </div>
                         </div>
                     </div>
                 </div>
