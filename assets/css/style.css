@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald&display=swap');
 
+
+* {
+  box-sizing: border-box;
+}
+
+
 .html body {
 height: 100%;
 width: 100%;
@@ -177,7 +183,7 @@ footer {
 
 hr.light {
     border-top: 1px solid #d5d5d5;
-    width: 75%;
+    width: 100%;
 }
 
 .fa-facebook {
@@ -193,10 +199,10 @@ hr.light {
 }
 
 
-@media screen and (min-width: 768px) {
-	h2 {
-		font-size: 30px;
-	}
+@media (min-width: 600px) {
+    h2 {
+        font-size: 30px;
+    }
 }
 
 
@@ -218,11 +224,6 @@ hr.light {
 	}
 }
 
+@media (max-width: 600px) {
 
-/* Modal dimensions Large devices (desktops, 992px and up) */
-
-@media (min-width: 992px) {
-	.modal-lg {
-		max-width: 600px;
-	}
 }
