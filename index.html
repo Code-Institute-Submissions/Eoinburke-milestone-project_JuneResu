@@ -7,7 +7,7 @@
     <meta name="description" content="Free Web tutorials">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="John Doe">
-    
+
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
@@ -21,39 +21,36 @@
 
     <!--NavBar-->
 
-    <header>
-        <nav id="myNavbar" class="navbar navbar-expand-lg navbar-light fixed-top">
-            <a class="navbar-brand"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse text-right" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#Eoin-Burke">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#images">CONTENT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aboutMe">ABOUT ME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Equipment">EQUIPMENT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Contact">CONTACT</a>
-                    </li>
+    <nav>
+        <div class="row">
+            <div class="col-lg-12 col-sm-6">
+                <div class="logo">
+                    Eoin Burke Photography
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a class="active" href="#Eoin-Burke">HOME</a></li>
+                    <li><a href="#images">CONTENT</a></li>
+                    <li><a href="#aboutMe">ABOUT ME</a></li>
+                    <li><a href="#Equipment">EQUIPMENT</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
                 </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+
+
     <!--image-->
+    <div class="photo">
     <div class="row">
-        <div class="col-lg-12 col-md-4 col-sm-">
+        <div class="col-lg-12 col-md-12 col-sm-12">
             <div id="Eoin-Burke">
-                <img class="fit" src="assets/images/menlo.jpg" alt="Deer" height="100%" width="100%">
+                <img class="fit" src="assets/images/menlo.jpg" alt="Menlo Castle" height="100%" width="100%">
             </div>
+        </div>
         </div>
     </div>
     <!--Welcome Section-->
@@ -61,7 +58,7 @@
     <div id="Re-Live-Every-Moment">
         <div class="container-fluid padding">
             <div class="row welcome text-center">
-                <div class="col-lg-12 col-sm-6">
+                   <div class="col-lg-12 col-sm-6">
                     <h1 class="display-4">Re-Live Every Moment</h1>
                     <hr>
                 </div>
@@ -74,236 +71,221 @@
 
     <!--Image Grid-->
     <div id="images">
-    <section id="gallery" class="white-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col">
-                    <div class="row justify-content-center text-center">
-                        <h2 class="py-4 font-antonio border-bottom"></h2>
-                        <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Vancouver apartment block | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/building.jpg">
-                                <img class="gallery-thumbnail responsive" src="assets/images/gallery/building-sm.jpg"
-                                    alt="Yosemite National Park" alt="Vancouver apartment block">
-                            </a>
-                        </figure>
-                        <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Evening sky Yosemite | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/camp.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/camp-sm.jpg"
-                                    alt="Camping">
-                            </a>
-                        </figure>
-                         <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Lonely man | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/cliff.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/cliff-sm.jpg"
-                                    alt="Lonely man">
-                            </a>
-                        </figure>
-                        <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Walking through the valley | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/deathvalley.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/deathvalley-sm.jpg" alt="Death Valley">
-                            </a>
-                        </figure>
+        <section id="gallery" class="white-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="row justify-content-center text-center">
+                            <h2 class="py-4 font-antonio border-bottom"></h2>
                             <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Deer in Yosemite National Park| © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/deer.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/deer-sm.jpg" alt="Deer">
-                            </a>
-                        </figure>
+                                <a data-fancybox="gallery"
+                                    data-caption="Vancouver apartment block | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/building.jpg">
+                                    <img class="gallery-thumbnail responsive"
+                                        src="assets/images/gallery/building-sm.jpg" alt="Yosemite National Park"
+                                        alt="Vancouver apartment block">
+                                </a>
+                            </figure>
                             <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Murder Hole Beach | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/donegal.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/donegal-sm.jpg" alt="Beach">
-                            </a>
-                        </figure>
+                                <a data-fancybox="gallery"
+                                    data-caption="Evening sky Yosemite | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/camp.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/camp-sm.jpg"
+                                        alt="Camping">
+                                </a>
+                            </figure>
                             <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Waterfall Yosemite | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/fall.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/fall-sm.jpg" alt="Yosemite">
-                            </a>
-                        </figure>
-                              <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Firework competition Vancouver | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/fworks.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/fworks-sm.jpg" alt="Fireworks">
-                            </a>
-                        </figure>
-                              <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Milkyway | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/galaxy.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/galaxy-sm.jpg" alt="Stargazing">
-                            </a>
-                        </figure>
-                              <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Griffith Obsorvotory | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/griffith.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/griffith-sm.jpg" alt="Griffith Obsorvotory">
-                            </a>
-                        </figure>
-                              <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Snowy scenery | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/ice.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/ice-sm.jpg" alt="Snow">
-                            </a>
-                        </figure>
-                              <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Jofrree Lakes British Colombia | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/joffree.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/joffree-sm.jpg" alt="Beautiful British Colombia">
-                            </a>
-                        </figure>
-                              <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Los Angeles| © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/la.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/la-sm.jpg" alt="Los Angeles">
-                            </a>
-                        </figure>
-                                 <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Lonely man  | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/lonely.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/lonely-sm.jpg" alt="Death Valley">
-                            </a>
-                        </figure>
-                                 <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Lynn Cannyon | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/lynn.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/lynn-sm.jpg" alt="Lynn Cannyon Vancouver">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Morning Death Valley | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/morning.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/morning-sm.jpg" alt="Sun Rise">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="12 Bens Galway | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/mountain.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/mountain-sm.jpg" alt="Hiking">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Mushroom growing | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/mushroom.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/mushroom-sm.jpg" alt="Mushroom">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Sand storm | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/sand.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/sand-sm.jpg" alt="Sand">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Air bender| © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/sand2.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/sand2-sm.jpg" alt="Last air bender">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Sun set San Fransico| © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/sf.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/sf-sm.jpg" alt="San Francisco">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Sun Set| © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/sset.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/sset-sm.jpg" alt="Sun Set">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Stargazing | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/star.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/star-sm.jpg" alt="Stargazing Yosemite">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Sun Set San Francisco| © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/sunset.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/sunset-sm.jpg" alt="Sun Set San Francisco">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Death Valley | © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/valley.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/valley-sm.jpg" alt="Death Valley">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Yosemite National Park © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/yosemite.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/yosemite-sm.jpg" alt="Yosemite National Park">
-                            </a>
-                        </figure>
-                                  <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
-                            <a data-fancybox="gallery"
-                                data-caption="Vancouver| © 2021 Copyright Eoin Burke"
-                                href="assets/images/gallery/van.jpg">
-                                <img class="gallery-thumbnail responsive"
-                                    src="assets/images/gallery/van-sm.jpg" alt="Vancouver">
-                            </a>
-                        </figure>
+                                <a data-fancybox="gallery" data-caption="Lonely man | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/cliff.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/cliff-sm.jpg"
+                                        alt="Lonely man">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Walking through the valley | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/deathvalley.jpg">
+                                    <img class="gallery-thumbnail responsive"
+                                        src="assets/images/gallery/deathvalley-sm.jpg" alt="Death Valley">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Deer in Yosemite National Park| © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/deer.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/deer-sm.jpg"
+                                        alt="Deer">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Murder Hole Beach | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/donegal.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/donegal-sm.jpg"
+                                        alt="Beach">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Waterfall Yosemite | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/fall.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/fall-sm.jpg"
+                                        alt="Yosemite">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Firework competition Vancouver | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/fworks.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/fworks-sm.jpg"
+                                        alt="Fireworks">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Milkyway | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/galaxy.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/galaxy-sm.jpg"
+                                        alt="Stargazing">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Griffith Obsorvotory | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/griffith.jpg">
+                                    <img class="gallery-thumbnail responsive"
+                                        src="assets/images/gallery/griffith-sm.jpg" alt="Griffith Obsorvotory">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Snowy scenery | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/ice.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/ice-sm.jpg"
+                                        alt="Snow">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Jofrree Lakes British Colombia | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/joffree.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/joffree-sm.jpg"
+                                        alt="Beautiful British Colombia">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Los Angeles| © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/la.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/la-sm.jpg"
+                                        alt="Los Angeles">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Lonely man  | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/lonely.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/lonely-sm.jpg"
+                                        alt="Death Valley">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Lynn Cannyon | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/lynn.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/lynn-sm.jpg"
+                                        alt="Lynn Cannyon Vancouver">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Morning Death Valley | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/morning.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/morning-sm.jpg"
+                                        alt="Sun Rise">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="12 Bens Galway | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/mountain.jpg">
+                                    <img class="gallery-thumbnail responsive"
+                                        src="assets/images/gallery/mountain-sm.jpg" alt="Hiking">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Mushroom growing | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/mushroom.jpg">
+                                    <img class="gallery-thumbnail responsive"
+                                        src="assets/images/gallery/mushroom-sm.jpg" alt="Mushroom">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Sand storm | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/sand.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/sand-sm.jpg"
+                                        alt="Sand">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Air bender| © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/sand2.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/sand2-sm.jpg"
+                                        alt="Last air bender">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Sun set San Fransico| © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/sf.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/sf-sm.jpg"
+                                        alt="San Francisco">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Sun Set| © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/sset.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/sset-sm.jpg"
+                                        alt="Sun Set">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Stargazing | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/star.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/star-sm.jpg"
+                                        alt="Stargazing Yosemite">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Sun Set San Francisco| © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/sunset.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/sunset-sm.jpg"
+                                        alt="Sun Set San Francisco">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Death Valley | © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/valley.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/valley-sm.jpg"
+                                        alt="Death Valley">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery"
+                                    data-caption="Yosemite National Park © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/yosemite.jpg">
+                                    <img class="gallery-thumbnail responsive"
+                                        src="assets/images/gallery/yosemite-sm.jpg" alt="Yosemite National Park">
+                                </a>
+                            </figure>
+                            <figure class="gallery-img col-sm-12 col-md-6 col-lg-3">
+                                <a data-fancybox="gallery" data-caption="Vancouver| © 2021 Copyright Eoin Burke"
+                                    href="assets/images/gallery/van.jpg">
+                                    <img class="gallery-thumbnail responsive" src="assets/images/gallery/van-sm.jpg"
+                                        alt="Vancouver">
+                                </a>
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
-        </div>
-        <hr>
+    </div>
+    <hr>
     </section>
 
     <!--Two Column-->
@@ -314,7 +296,7 @@
                 <div class="col sqs-col-6">
                     <div class="row welcome text-center">
                         <h1 class="display-4">About Me!</h1>
-                        
+
 
                         <div id="aboutMe">
                             <p>I grew up in a relatively small city called Galway. Growing up I alwasy had an interest
@@ -327,7 +309,7 @@
                             <p>I am available to cater for any event, such a family fuctions, modeling potraits and
                                 advertising. You can find my contact details and social media accounts below.</p>
                         </div>
-                        <img src="assets/images/sand.jpg" alt="aboutme" class="center">
+                        <img src="assets/images/gallery/sand.jpg" alt="aboutme" class="center">
                     </div>
                 </div>
             </div>
@@ -355,19 +337,20 @@
 
             </div>
 
-            <div class="video">
-                <div class="col sqs-col-6">
-                    <div class="center">
-                        <video width="500" height="350" controls>
-                            <source src="assets/video/movie2.mp4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                        </video>
-                    </div>
+            <div class="row">
+                <div class="video">
+                    <div class="col sqs-col-6">
+                        <div class="center">
+                            <video width="700" height="350" controls>
+                                <source src="assets/video/movie2.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                            </video>
+                        </div>
 
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
     <hr class="my-4">
 
@@ -456,7 +439,8 @@
                         <h2 class="py-4 border-bottom">Social Media</h2>
                         <div class="col-12 social-padding">
                             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/eoinb12/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/eoinb12/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
                             <a href="https://www.youtube.com/channel/UCM3h-z9iOdh-cONTUZsZf0A" target="_blank"><i
                                     class="fab fa-youtube"></i></a>
 
@@ -493,9 +477,9 @@
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76329.89874880324!2d-9.118786094575908!3d53.283993614361826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b93955a2d5bff%3A0x32b1b440a495281!2sGalway!5e0!3m2!1sen!2sie!4v1613916695703!5m2!1sen!2sie"></iframe>
                         </p>
+                    </div>
                 </div>
             </div>
-        </div>
     </footer>
     <!-- Footer -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
