@@ -159,10 +159,10 @@ padding-top: 2rem;
   
    
 }
+
 .video {
- 
-  margin-left: 430px;
-  margin-bottom: 50px;
+  padding: 0;
+  margin: 0; 
   border: 100px;
   padding: 10px;
   display: block;
@@ -209,14 +209,20 @@ hr.light {
 
 .fa-facebook {
     color: #3b5998;
+    font-size: 5rem;
+    padding:20px;
 }
 
 .fa-instagram {
     color: #517fa4;
+     font-size: 5rem;
+      padding: 20px;
 }
 
 .fa-youtube {
     color: #bb0000;
+     font-size: 5rem;
+      padding: 20px;
 }
 
 
@@ -281,25 +287,58 @@ hr.light {
     color: cyan;
   }
 }
+
+@media (max-width: 2000px) {
+
+.images {
+    border-spacing: 50px;
+}
+
+ .video {
+ display: block;
+  margin: 0 auto;
+  border: 100px;
+  padding: 10px;
+  display: block;
+  
+  }
+}
+
   @media (max-width: 990px) {
        nav .logo{
        color: #fff;
   font-size: 20px;
   font-weight: 300;
   }
+
+  .video {
+      margin: 0;
+      padding: 0;
+    width: 100%;
+    height: auto;
+  }
 }
 
-@media (min-width: 600px) {
-    h2 {
-        font-size: 30px;
-    }
+@media (min-width: 640px) {
+  video {
+      margin: 0;
+      padding: 0;
+      width: 10px;
+      height: 10px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 360px) {
+ .video {
+    display: block;
+  margin: 0 auto;
+  border: 100px;
+  padding: 10px;
+  display: block;
+  }
 }
 
 
-/* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {
-	h2 {
-		font-size: 36px
-	}
-}
