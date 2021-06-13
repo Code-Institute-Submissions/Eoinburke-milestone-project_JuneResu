@@ -20,6 +20,23 @@ I picked this particular website because I have a great intrest in content creat
 * A sample video I have shot and edited.
 * A link to my social media accounts to view more content.
 
+# User stories:
+- As a new visitor, I want to easily navigate the site to find whether the content creator the right fit for my needs.
+- As a new visitor, I would like to learn more about the content creators vision, so I can get to know their background better. I would also like to know the reasons why this content creator stands out from the crowd.
+- I would like to work with approachable content creator and have a clear picture of what I should expect.
+- As an interested client, I want to be able to contact the content creator easily.
+- As a potential client, I would like to learn more about the content creators works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.
+- As a returning visitor to the website, I want to be able to find the contact page easily to reach the content creator.
+
+# Scope
+To achieve the strategic goals, I included the following features in the website:
+
+- Header containing the menu bar including Home, Content, About Me, Equipment and Contact.
+<img src="assets/images/nav-menu.jpg">
+
+- Content section displaying easy to scroll through photos.
+<img src="assets/images/content-section.jpg">
+
 # <strong>Wireframe Mockups</strong>
 My mockup wireframs can be found by clicking on the link:
 [Github Wireframes](https://github.com/Eoinburke/milestone-project/blob/main/new-project-1.pdf)
@@ -56,8 +73,50 @@ Testing information can be found in a separate [TESTING.md](https://github.com/E
 * Galaxy Note 3 
 * iPad pro
 
+
+
+# COMPATIBILITY
+To ensure a broad range of users can successfully view/use the site, I tested it across all major browsers in both desktop and mobile configuration.
+
+- Chrome
+- Edge
+- Firefox
+- Safari
+- Internet Explorer
+- Issues
+
+# Deployment
+
+This project was developed using Gitpod, committed to git and pushed to GitHub using git commands.
+<br>
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+- Log into GitHub.
+- From the list of repositories on the screen, select milestone-project.
+- From the menu items near the top of the page, select Settings.
+- Scroll down to the GitHub Pages section.
+- Under Source click the drop-down menu labelled None and select Master Branch. Then Save it.
+- Wait for a few minutes of the website to be deployed.
+- Scroll back down to the GitHub Pages section to access the link to the deployed website.
+- Run this project locally
+- Select the Repository from the GitHub Dashboard.
+- Click the green button labelled 'Code'.
+- Click 'Download ZIP'.
+- Extract ZIP file on your computer.
+- Open folder and open index.html in web browser.
+
+# Clone this project
+- Select the Repository from the GitHub Dashboard.
+- Click the green button labelled 'Code'.
+- To clone the repository using:
+HTTPS: under "Clone with HTTPS", click checklist icon.
+SSH: click Use SSH, then click checklist icon.
+- Open Git Bash.
+- Change the current working directory to the location where you want the cloned directory.
+- Type 'git clone', and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
+
 # Project Issues 
-* I ran into a few problems when creating the website. I had a problem with the nav bar when loading on a mobile device, the nav bar would take up most of the room over the home page image which looked very unprofessional.
 * I have three image slides for my home page but I have couldnt figure out how to get the third one to work unfortunatley so in the end i had to remove it from the final touches to the project.
 * I also ran into problems with my images. They were taking too long to process which slowed down the the websites time to load. To overcome this I had to use [Gimp](https://www.gimp.org/) to help re-size and lower the images resolution quality.
 * While using Fancy box I found it difficult to get it working properly but with further research into the website and youtube I was able to get it working in the end.
