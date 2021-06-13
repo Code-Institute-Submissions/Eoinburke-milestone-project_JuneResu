@@ -49,7 +49,7 @@ My mockup wireframs can be found by clicking on the link:
 * <strong>[Google Fonts](https://fonts.google.com/)</strong> - I used Google fonts to style the font of font i was using through out the prroject.
 
 # Testing:
-Testing information can be found in a separate [TESTING.md](https://turquoise-beetle-fc2e6a8o.ws-eu03.gitpod.io/#/workspace/milestone-project) file
+Testing information can be found in a separate [TESTING.md](https://github.com/Eoinburke/milestone-project/blob/main/TESTING.md) file
 ## Devices Used 
 * Macbook pro
 * iPhone X
