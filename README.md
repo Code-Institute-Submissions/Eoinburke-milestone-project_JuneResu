@@ -34,6 +34,9 @@ To achieve the strategic goals, I included the following features in the website
 - Header containing the menu bar including Home, Content, About Me, Equipment and Contact.
 <img src="assets/images/nav-menu.jpg">
 
+<br>
+
+
 - Content section displaying easy to scroll through photos.
 <img src="assets/images/content-section.jpg">
 

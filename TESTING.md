@@ -65,10 +65,11 @@ My footer section was very bare looking so upon looking into what else i could i
 
 # Validator
 ### HTML
-- I tested all my HTML files by using [W3C Markup Validation Service](https://validator.w3.org/) there were 2 bugs that I was unable to fix, I tried using CSS to solve the problem but I was unable to. In the end I had to use the original HTML code as it was the only was I could solve the problem.
+- I tested all my HTML files by using [W3C Markup Validation Service](https://validator.w3.org/) there were 2 bugs that I was unable to fix, I tried using CSS to solve the problem but I was unable to. In the end I had to use the original HTML code as it was the only way I could solve the problem.
+<img src="assets/images/html.jpg">
 ### CSS
 - I tested all my CSS files by using [W3C Markup Validation Service](https://validator.w3.org/) no errors appeared when I ran the code.
-
+<img src="assets/images/css.jpg">
 
 
 
