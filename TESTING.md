@@ -63,6 +63,32 @@ My footer section was very bare looking so upon looking into what else i could i
 ## Results
 - The map passed all tests.
 
+
+# Testing client stories from UX section of README.md
+1. Header containing the menu bar including Home, Content, About Me, Equipment and Contact.
+<img src="assets/docs&images/nav-menu.jpg">
+- The user can navigate through the website using the navbar menu on top of the page.
+- The logo links the user back to the Home Page.
+
+2. Content section displaying easy to scroll through photos.
+<img src="assets/docs&images/content-section.jpg">
+- Interactive and easy to scroll through images.
+
+3. About me section giving a brief introduction about myself.
+<img src="assets/docs&images/aboutme.jpg">
+- 
+4. A information section with a video file showing my work in videography.
+<img src="assets/docs&images/video.jpg">
+
+5. Equipment section displaying the equipment I use.
+<img src="assets/docs&images/equipment.jpg">
+
+6. Simple Contact Form.
+<img src="assets/docs&images/contact.jpg">
+
+7. Footer containing links to social media, phone number and email.
+<img src="assets/docs&images/footer.jpg">
+
 # Validator
 ### HTML
 - I tested all my HTML files by using [W3C Markup Validation Service](https://validator.w3.org/) there were 2 bugs that I was unable to fix, I tried using CSS to solve the problem but I was unable to. In the end I had to use the original HTML code as it was the only way I could solve the problem.
