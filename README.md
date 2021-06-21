@@ -2,7 +2,7 @@
 
 [View the live project here.](https://eoinburke.github.io/milestone-project/) 
 
-![alt text](assets/images/responsive/responsive.jpg "Responsive Image")  
+![alt text](assets/docs&images/responsive.jpg "Responsive Image")  
 The image is from [Am I responsive?](http://ami.responsivedesign.is/)
 
 <img src="assets/images/gallery/project2.jpg">
@@ -32,7 +32,7 @@ I picked this particular website because I have a great intrest in content creat
 To achieve the strategic goals, I included the following features in the website:
 
 - Header containing the menu bar including Home, Content, About Me, Equipment and Contact.
-<img src="assets/images/nav-menu.jpg">
+<img src="assets/docs&images/nav-menu.jpg">
 
 <br>
 
