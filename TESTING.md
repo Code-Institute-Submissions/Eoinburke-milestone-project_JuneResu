@@ -69,25 +69,38 @@ My footer section was very bare looking so upon looking into what else i could i
 <img src="assets/docs&images/nav-menu.jpg">
 - The user can navigate through the website using the navbar menu on top of the page.
 - The logo links the user back to the Home Page.
+<br>
 
 2. Content section displaying easy to scroll through photos.
 <img src="assets/docs&images/content-section.jpg">
 - Interactive and easy to scroll through images.
+<br>
 
 3. About me section giving a brief introduction about myself.
 <img src="assets/docs&images/aboutme.jpg">
-- 
+<br>
+
 4. A information section with a video file showing my work in videography.
 <img src="assets/docs&images/video.jpg">
+- Easy to read section.
+- interactive and nicely displayed video file.
+<br>
 
 5. Equipment section displaying the equipment I use.
 <img src="assets/docs&images/equipment.jpg">
+- Inline information section giving a description on the equipment that I use.
+<br>
 
 6. Simple Contact Form.
 <img src="assets/docs&images/contact.jpg">
+- Easy to navigate through contact form.
+<br>
 
 7. Footer containing links to social media, phone number and email.
 <img src="assets/docs&images/footer.jpg">
+- Footer section containing social media icons.
+- Nicely displayed and easy to read contact information.
+- Google maps diplaying where Galway is located.
 
 # Validator
 ### HTML
