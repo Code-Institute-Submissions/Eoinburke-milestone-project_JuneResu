@@ -23,7 +23,7 @@ I picked this particular website because I have a great intrest in content creat
 # User stories:
 - As a new visitor, I want to easily navigate the site to find whether the content creator the right fit for my needs.
 - As a new visitor, I would like to learn more about the content creators vision, so I can get to know their background better. I would also like to know the reasons why this content creator stands out from the crowd.
-- I would like to work with approachable content creator and have a clear picture of what I should expect.
+- I would like to work with an approachable content creator and have a clear picture of what I should expect.
 - As an interested client, I want to be able to contact the content creator easily.
 - As a potential client, I would like to learn more about the content creators works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.
 - As a returning visitor to the website, I want to be able to find the contact page easily to reach the content creator.
@@ -32,13 +32,14 @@ I picked this particular website because I have a great intrest in content creat
 To achieve the strategic goals, I included the following features in the website:
 
 - Header containing the menu bar including Home, Content, About Me, Equipment and Contact.
-<img src="assets/docs&images/nav-menu.jpg">
+- Content section displaying easy to scroll through photos that are also interactive.
+- About me section giving a brief description on my background.
+- More information section with a video file descriping some of the other side of content creation I do.
+- Equipment section with a photos of the equipment I use with a brief description of their specs.
+- Contact section with easy to read placeholder.
+- Social media links with interactive buttons that will load my social media links in seperate tabs.
+- Footer section with other ways of contacting me and a map that pin points my location on a map.
 
-<br>
-
-
-- Content section displaying easy to scroll through photos.
-<img src="assets/images/content-section.jpg">
 
 # <strong>Wireframe Mockups</strong>
 My mockup wireframs can be found by clicking on the link:
@@ -55,6 +56,9 @@ My mockup wireframs can be found by clicking on the link:
 
 ## More Information
 * Video -  Creating this website I wanted to be able to add a section where I could show one of my videos I recorded and edited.
+
+## Contact
+* Contact boxes - I implanted a contact section for a easier way for clients to get in contact.
 
 ## Social media amd Footer 
 * Font awesome icons - I added the font awesome icons to make it easy for the users to access my social media accounts as easy as a click of a button.

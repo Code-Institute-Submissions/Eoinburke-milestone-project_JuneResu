@@ -65,18 +65,17 @@ My footer section was very bare looking so upon looking into what else i could i
 
 
 # Testing client stories from UX section of README.md
-1. Header containing the menu bar including Home, Content, About Me, Equipment and Contact.
+1. As a new visitor, I want to easily navigate the site to find whether the content creator is the right fit for my needs.
 <img src="assets/docs&images/nav-menu.jpg">
 - The user can navigate through the website using the navbar menu on top of the page.
 - The logo links the user back to the Home Page.
-<br>
 
-2. Content section displaying easy to scroll through photos.
+2. As a new visitor, I would like to learn more about the content creators vision, so I can get to know their background better. I would also like to know the reasons why this content creator stands out from the crowd.
 <img src="assets/docs&images/content-section.jpg">
 - Interactive and easy to scroll through images.
 <br>
 
-3. About me section giving a brief introduction about myself.
+3. I would like to work with an approachable content creator and have a clear picture of what I should expect.
 <img src="assets/docs&images/aboutme.jpg">
 <br>
 
@@ -91,12 +90,12 @@ My footer section was very bare looking so upon looking into what else i could i
 - Inline information section giving a description on the equipment that I use.
 <br>
 
-6. Simple Contact Form.
+6. As an interested client, I want to be able to contact the content creator easily.
 <img src="assets/docs&images/contact.jpg">
 - Easy to navigate through contact form.
 <br>
 
-7. Footer containing links to social media, phone number and email.
+7. As a potential client, I would like to learn more about the content creators works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.
 <img src="assets/docs&images/footer.jpg">
 - Footer section containing social media icons.
 - Nicely displayed and easy to read contact information.
@@ -105,10 +104,10 @@ My footer section was very bare looking so upon looking into what else i could i
 # Validator
 ### HTML
 - I tested all my HTML files by using [W3C Markup Validation Service](https://validator.w3.org/) there were 2 bugs that I was unable to fix, I tried using CSS to solve the problem but I was unable to. In the end I had to use the original HTML code as it was the only way I could solve the problem.
-<img src="assets/images/html.jpg">
+<img src="assets/docs&images/html.jpg">
 ### CSS
 - I tested all my CSS files by using [W3C Markup Validation Service](https://validator.w3.org/) no errors appeared when I ran the code.
-<img src="assets/images/css.jpg">
+<img src="assets/docs&images/css.jpg">
 
 
 
